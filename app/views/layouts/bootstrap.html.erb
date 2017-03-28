@@ -9,8 +9,8 @@
   </head>
 
   <body>
-Esto debería tener bootstrap
-
+    <%=render 'layouts/navbar' %>
+    <%= yield %>
     <script type="text/javascript" src="<%= asset_path 'bootstrap.js' %>"></script>
   </body>
 </html>
