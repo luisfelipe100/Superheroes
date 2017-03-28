@@ -7,5 +7,6 @@ class ExperimentsController < ApplicationController
   end
 
   def page3
+    render layout: "imagenfondo"
   end
 end
